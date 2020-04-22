@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="fullscreen_page sticky_menu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Arjun's Arcade</title>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/theme.css" type="text/css" media="all" />
+>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> 
+					<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+						<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+			<!-- header -->
+							<div class="page-wrapper">
+								<div class="nav-wrapper">
+									<div class="grad-bar"/>
+									<nav class="navbar">
+										<img src="img/Logo.png" alt="Arjun's Arcade">
+											<div class="menu-toggle" id="mobile-menu">
+												<span class="bar"/>
+												<span class="bar"/>
+												<span class="bar"/>
+											</div>
+											<ul class="nav no-search">
+												<li class="nav-item">
+													<a href="#">Home</a>
+												</li>
+												<li class="nav-item">
+													<a href="#">About</a>
+												</li>
+												<li class="nav-item">
+													<a href="#">Work</a>
+												</li>
+												<li class="nav-item">
+													<a href="#">Careers</a>
+												</li>
+												<li class="nav-item">
+													<a href="#">Contact Us</a>
+												</li>
+												<i class="fas fa-search" id="search-icon"/>
+												<input class="search-input" type="text" placeholder="Search..">
+												</ul>
+											</nav>
+										</div>
+
+									</div>
+									<!-- header -->
+    
+  
+    
+    <div class="preloader"></div> 
+       
+	<div class="content_bg"></div>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+    <script type="text/javascript" src="js/modules.js"></script>
+	<script type="text/javascript" src="js/theme.js"></script>
+    <script>
+		gallery_set = [
+			{image: "img/slider/1.jpg", thmb: "img/slider/thumbs/1.jpg", alt: "SEASHORE", title: "SEASHORE", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},
+			{image: "img/slider/2.jpg", thmb: "img/slider/thumbs/2.jpg", alt: "Colors", title: "Colors", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/3.jpg", thmb: "img/slider/thumbs/3.jpg", alt: "Forest", title: "Forest", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/4.jpg", thmb: "img/slider/thumbs/4.jpg", alt: "Coffee", title: "Coffee", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/5.jpg", thmb: "img/slider/thumbs/5.jpg", alt: "Dude", title: "Dude", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},
+			{image: "img/slider/6.jpg", thmb: "img/slider/thumbs/6.jpg", alt: "Summer", title: "Summer", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/7.jpg", thmb: "img/slider/thumbs/7.jpg", alt: "Skate", title: "Skate", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},
+			{image: "img/slider/8.jpg", thmb: "img/slider/thumbs/8.jpg", alt: "Forest", title: "Forest", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/9.jpg", thmb: "img/slider/thumbs/9.jpg", alt: "Mountains", title: "Mountains", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/10.jpg", thmb: "img/slider/thumbs/10.jpg", alt: "Seashore", title: "Seashore", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/11.jpg", thmb: "img/slider/thumbs/11.jpg", alt: "Pier", title: "Pier", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/12.jpg", thmb: "img/slider/thumbs/12.jpg", alt: "Desert", title: "Desert", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/13.jpg", thmb: "img/slider/thumbs/13.jpg", alt: "Mountains", title: "Mountains", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/14.jpg", thmb: "img/slider/thumbs/14.jpg", alt: "Tourist", title: "Tourist", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/15.jpg", thmb: "img/slider/thumbs/15.jpg", alt: "Fog", title: "Fog", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/16.jpg", thmb: "img/slider/thumbs/16.jpg", alt: "Desert", title: "Desert", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
+			{image: "img/slider/17.jpg", thmb: "img/slider/thumbs/17.jpg", alt: "Seashore", title: "Seashore", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"},		
+			{image: "img/slider/18.jpg", thmb: "img/slider/thumbs/18.jpg", alt: "Stones", title: "Stones", description: "Discover elegant solution for your online portfolio", titleColor: "#ffffff", descriptionColor: "#ffffff"}
+		]
+		
+		jQuery(document).ready(function(){
+			"use strict";
+			jQuery('html').addClass('hasPag');
+			jQuery('body').fs_gallery({
+				fx: 'fade', /*fade, zoom, slide_left, slide_right, slide_top, slide_bottom*/
+				fit: 'no_fit',
+				slide_time: 3300, /*This time must be < then time in css*/
+				autoplay: 1,
+				show_controls: 1,
+				slides: gallery_set
+			});
+			jQuery('.fs_share').click(function(){
+				jQuery('.fs_fadder').removeClass('hided');
+				jQuery('.fs_sharing_wrapper').removeClass('hided');
+				jQuery('.fs_share_close').removeClass('hided');
+			});
+			jQuery('.fs_share_close').click(function(){
+				jQuery('.fs_fadder').addClass('hided');
+				jQuery('.fs_sharing_wrapper').addClass('hided');
+				jQuery('.fs_share_close').addClass('hided');
+			});
+			jQuery('.fs_fadder').click(function(){
+				jQuery('.fs_fadder').addClass('hided');
+				jQuery('.fs_sharing_wrapper').addClass('hided');
+				jQuery('.fs_share_close').addClass('hided');
+			});
+			
+			jQuery('.close_controls').click(function(){
+				if (jQuery(this).hasClass('open_controls')) {
+					jQuery('.fs_controls').removeClass('hide_me');
+					jQuery('.fs_title_wrapper ').removeClass('hide_me');
+					jQuery('.fs_thmb_viewport').removeClass('hide_me');
+					jQuery('header.main_header').removeClass('hide_me');
+					jQuery(this).removeClass('open_controls');
+				} else {		
+					jQuery('header.main_header').addClass('hide_me');
+					jQuery('.fs_controls').addClass('hide_me');
+					jQuery('.fs_title_wrapper ').addClass('hide_me');
+					jQuery('.fs_thmb_viewport').addClass('hide_me');
+					jQuery(this).addClass('open_controls');
+				}
+			});
+			
+			jQuery('.main_header').removeClass('hided');
+			jQuery('html').addClass('without_border');			
+		});
+	</script> 
+    <script type="text/javascript" src="js/fs_gallery.js"></script>
+</body>
+
+</html>
