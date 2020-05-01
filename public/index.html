@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  class="fullscreen_page sticky_menu" lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -10,7 +10,13 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/theme.css" type="text/css" media="all" />
+<link rel="stylesheet" href="%PUBLIC_URL%/css/responsive.css" type="text/css" media="all" />
+<link rel="stylesheet" href="%PUBLIC_URL%/css/custom.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="%PUBLIC_URL%/js/jquery.min.js"></script>    
+
+<!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
@@ -27,6 +33,43 @@
     <title>COVID-19</title>
   </head>
   <body>
+    <header class="main_header">
+
+      <div class="header_wrapper">
+        <div class="logo_sect">
+              <a href="index-2.html" class="logo"><img src="%PUBLIC_URL%/img/logo.png" alt=""  class="logo_def"><img src="%PUBLIC_URL%/img/retina/logo.png" alt="" class="logo_retina"></a>
+              <div class="slogan">An Arcade from travelling around the World</div>
+          </div>                       
+          <div class="header_rp">
+              <nav>
+                  <div class="menu-main-menu-container">
+                    <ul id="menu-main-menu" class="menu">
+                        <li class="menu-item-has-children">
+                            <a href="#"><span>Home</span></a>
+                                                         
+                          </li>                          
+                          <li class="menu-item-has-children">
+                            <a href="#"><span>Gallery</span></a>                                
+                              
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="https://ajn845.github.io/arjunsarcade/"><span>COVID19</span></a>
+                              
+                          </li>                            
+                          <li class="menu">
+                            <a href="#"><span>Contact</span></a>
+                               
+                          </li>                        
+                      </ul>
+                  </div>
+                 
+                              
+              </nav>            
+             
+    </div>
+          <div class="clear"></div>
+      </div>
+  </header>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +82,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div class="preloader"></div>
+        
+    <div class="content_bg"></div>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="%PUBLIC_URL%/js/modules.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/theme.js"></script>  
   </body>
 </html>
